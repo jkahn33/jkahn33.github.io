@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Personal website for Jacob Kahn">
     <meta name="author" content="Jacob Kahn">
-    <title>{{site.data.navlist.docs_list_title}}</title>
+    <title>Jacob Kahn - Home</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/cover/">
 
@@ -32,15 +32,37 @@
     <link href="{{"/assets/css/home.css"}}" rel="stylesheet">
   </head>
   <body class="text-center">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">Info</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/experience.html">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
   <header class="masthead mb-auto">
+    <!--
     <div class="inner">
       <nav class="nav nav-masthead justify-content-center">
         <a class="nav-link active" href="#">Home</a>
-        <a class="nav-link" href="skills.html">Skills</a>
+        <a class="nav-link" href="/pages/skills.html">Skills</a>
         <a class="nav-link" href="#">Projects</a>
       </nav>
     </div>
+  -->
   </header>
 
   <main role="main" class="inner cover">
@@ -56,7 +78,7 @@
 
   <footer class="mastfoot mt-auto">
     <div class="inner">
-      <p>© 2019 Jacob Kahn</p>
+      <p>&copy; 2019 Jacob Kahn</p>
     </div>
   </footer>
 </div>
