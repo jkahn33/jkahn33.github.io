@@ -15,7 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-user_description: "Recent Software Engineering graduate from UMass Dartmouth."
+user_description: "Recent Software Engineering graduate from UMass Dartmouth. Over the course of two internships as well as my senior capstone project,
+I have gotten a lot of experience in programming on both sides of the stack and in a variety of languages, frameworks, and technologies."
 
 include: ['pages']
 
